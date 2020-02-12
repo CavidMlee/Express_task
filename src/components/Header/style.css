@@ -1,0 +1,74 @@
+.header_container{
+    height: 90px;
+    width: 100vw;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.397);
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.h_icon_img{
+    margin: 0 30px;
+}
+
+.h_search{
+    padding-left: 30px;
+}
+
+.h_search .ant-input-lg{
+    border:0;
+    background-color: #F1F1F5;
+    border-radius: 35px;
+}
+
+.h_search .ant-input-lg::placeholder {
+    color: #616173;
+    opacity: 1; 
+}
+
+.h_functional{
+      display: flex;
+      justify-content: space-around;
+      padding: 0 20px 0 50px;
+      /* max-width: 527px; */
+}
+
+
+.h_divider{
+    width: 1px;
+    height: 50px;
+    background-color: #E6E6E6;
+}
+
+.h_userName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 180px;
+
+}
+.h_userName_txt{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #231F20;
+}
+.h_status_txt{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    letter-spacing: 0.03em;
+    color: #616173;
+
+}
+.badge{
+    margin-top: 15px;
+}
+
+.ant-badge-count{
+    background-color: #FAA61A;
+    color: black;
+}

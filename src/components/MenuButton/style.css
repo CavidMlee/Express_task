@@ -1,0 +1,36 @@
+.btn_icon{
+    background-color: #D4D8E2;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:7px 0
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.btn_container:hover{
+    background-color:  rgba(0, 0, 0, 0.021) ;
+}
+
+.btn_text{
+    font-family: Proxima Nova;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    color: #616173;
+}
+
+.btn_active{
+    background-color: #FAA61A;
+}
+.btn_active_txt{
+    color: #231F20;
+}

@@ -1,0 +1,71 @@
+.tableRow_container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.171);
+    padding: 5px 20px;
+}
+
+.table_number{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #231F20;
+}
+
+.table_date{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+    color: #474C54;
+}
+
+.table_account{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+    color: #474C54;
+}
+
+.table_accountNumber{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #474C54;
+    margin-top: 5px;
+}
+
+.table_about{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #474C54;
+}
+
+.table_money{
+    font-family: Cufont;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 14px;
+    font-weight: 500;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #231F20;
+}
+.tableRow_container img{
+    margin: 0 10px;
+    cursor: pointer;
+}

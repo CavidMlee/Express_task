@@ -1,0 +1,82 @@
+.currency_container{
+    height: auto;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+
+.CP_container > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.CP_title{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+
+.CP_container span{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.CP_price{
+    font-family: Proxima Nova;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #000000;
+
+}
+.currency_txt{
+    font-family: Proxima Nova;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    margin-top: 12px;
+    font-weight: 600;
+}
+.byprice_txt,
+.sellprice_txt{
+    font-family: Proxima Nova;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #616173;
+    margin-top: 12px;
+}
+
+.convert_btn{
+    width: 160px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #D7D8D6;
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.convert_btntxt{
+    font-family: Proxima Nova;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #616173;
+    margin-left: 10px;
+}
+.convert_btn_container{
+    display: flex;
+    justify-content: center;
+}

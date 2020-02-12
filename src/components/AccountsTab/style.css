@@ -1,0 +1,88 @@
+.tab_container{
+    height: 485px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+.tab_container .ant-tabs-ink-bar{
+    background-color: transparent;
+}
+
+.tab_container .ant-tabs-nav .ant-tabs-tab-active{
+    color: #232021;
+    font-weight: 700;
+}
+
+.tab_container .ant-tabs-nav-container{
+    font-size: 24px;
+    font-family: Proxima Nova;
+    font-weight: 700;
+    color: #00000052;
+}
+
+
+.tab_container .ant-tabs-tab:hover{
+    color:#232021a8
+}
+
+.TL_container{
+    padding: 15px 0 ;
+    margin:0 30px;
+    border-bottom: 1px solid #00000042;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TL_money{
+    font-family: Cufont;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 600;
+    color: #000000;
+}
+.TL_account{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.TL_number{
+    font-family: Proxima Nova;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #6B6B7C;
+}
+
+.TL_container img{
+    cursor: pointer;
+    padding-right:10px ;
+}
+
+.account_btn{
+    border: 1px solid #D7D8D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin:0 40px;
+    height:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 15px;
+    width: 85%;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.015em;
+    color: #616173;
+}

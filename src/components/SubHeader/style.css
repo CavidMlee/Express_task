@@ -1,0 +1,37 @@
+.SH_container{
+    background-color: white;
+}
+.SH_maxwidth{
+    height: 55px;
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.info_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info_title{
+    font-family: Proxima Nova;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #231F20;
+    margin: 0 15px;
+}
+.info_count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    padding: 0 10px;
+    height: 30px;
+    border: 1px solid #BFC5D2;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color: #F58220;
+    }

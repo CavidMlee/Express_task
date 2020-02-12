@@ -1,0 +1,134 @@
+.stats_container{
+    height: 349px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.stats_title_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 30px;
+    border-bottom:1px solid #0000004b ;
+}
+
+.stats_title{
+    font-family: Proxima Nova;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: #232021;
+    font-weight: 600;
+}
+
+.stats_select{
+    width: 73%;
+    border-radius: 20px;
+}
+
+.stats_select_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    padding: 5px 0px 5px 15px;
+    border: 1px solid #D7D8D6;
+    border-radius: 30px;
+}
+
+.select_title{
+    font-family: Proxima Nova;
+    color: #000000;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.stats_select_container .ant-select-selection{
+    border:0
+}
+
+.stats_select.stats_select_container .ant-select-open .ant-select-selection{
+    border:0
+}
+
+.stats_select.ant-select{
+    font-size: 13px !important;
+}
+
+.stats_date_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 30px;
+    border-bottom:1px solid #0000004b ;
+}
+.stats_date{
+    width: 100%;
+}
+
+.stats_date_container .ant-input{
+    border-radius: 30px !important;
+    color:#FAA61A;
+}
+
+.stats_date_container .ant-calendar-range-picker-separator{
+    color: transparent;
+}
+.stats_date_container .ant-calendar-range-picker-separator::before{
+    color: rgba(124, 119, 110, 0.253);
+    content: ' |';
+}
+
+.stats_round_img{
+    background-image: url("../../static/round.png"); 
+    height: 164px; 
+    width: 164px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.stats_money_container{
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 10px;
+}
+
+.stats_money_container span{
+    font-family: Proxima Nova;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: #616173;
+}
+
+.stats_money_container p{
+    font-family: Cufont;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.stats_incoming{
+    padding: 0 15px;
+    height: 50px;
+    border-left: 2px solid #FAA61A;
+}
+
+.stats_outcoming{
+    padding: 0 15px;
+    height: 50px;
+    border-left: 2px solid #5F6369;
+    margin-top: 25px;
+}

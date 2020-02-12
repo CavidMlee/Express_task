@@ -1,0 +1,43 @@
+.credit_container{
+  height: 116px;
+  background: white;
+  border-radius: 10px;
+  padding: 0 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.credit_leftside{
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-left: 10px;
+
+}
+
+.credit_title{
+    font-family: Proxima Nova;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    color: #232021 !important;
+}
+
+.credit_leftside div{
+    font-family: Proxima Nova;
+    color: #616173;
+    margin-bottom: 7px;
+}
+
+
+
+.credit_img{
+    background-image: url("../../static/image.png"); 
+    height: 116px; 
+    width: 300px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}

@@ -1,0 +1,10 @@
+.LN_container{
+    height: calc(100vh - 90px);
+    width: 130px;
+    background-color:white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 90px;
+    left:0;
+    z-index: 1;
+}
